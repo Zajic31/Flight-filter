@@ -12,8 +12,12 @@
 <h2>Vyhledávání letů</h2>
 
 <div class="form">
-  <input id="from" placeholder="From (PRG)">
-  <input id="to" placeholder="To (JFK)">
+    <input type="text" id="from" placeholder="Z (IATA kód)" list="from-list">
+    <datalist id="from-list"></datalist>
+
+    <input type="text" id="to" placeholder="Do (IATA kód)" list="to-list">
+    <datalist id="to-list"></datalist>
+
   <input id="date" type="date">
   <button id="searchBtn">Search</button>
 </div>

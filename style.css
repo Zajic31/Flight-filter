@@ -1,22 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+
+    font-family: Roboto, sans-serif;
     padding: 20px;
-    background: #f9f9f9;
+    background: #002b4f;
+    color: #ffffff;
 }
 
-h2 { color: #333; }
+h2 { color: #ffffff; }
 
 .form { margin-bottom: 20px; }
 
-input { padding: 8px; margin-right: 8px; }
-button { padding: 8px 12px; cursor: pointer; }
+input { padding: 8px; margin-right: 8px; 
+    border-radius: 10px;
+    background-color: #eb5d43;
+    box-shadow: 0 2px 5px #ffffff;
+    color: #ffffff;}
+
+button { padding: 8px 12px; cursor: pointer;
+    border-radius: 20px;
+    background-color: #ff0033;
+    box-shadow: 0 2px 5px #ffffff;
+    color: #ffffff;}
+
+::placeholder {
+    color: #ffffff;
+}
 
 .flight-card {
-    background: #fff;
+    background: #ff0033;
     padding: 12px;
     margin-bottom: 10px;
-    border-radius: 5px;
+    border-radius: 8px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    color: #ffffff;
 }
 
 .flight-card p {
